@@ -21,7 +21,7 @@ function Publication(props) {
                     className="header49_content-left"
                   >
                     <div className="margin-bottom">
-                      <h1 className="heading-large">Selected publications</h1>
+                      <h1 className="pu-heading">Selected publications</h1>
                     </div>
                     <p className="text-size-medium">
                       Discover a selection of our most recent and insightful

@@ -1,0 +1,143 @@
+/* CSS for the Card */
+.card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  padding: 166px;
+  margin: 156px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #567daf;
+  max-height: 200px;
+  color: rgb(12, 11, 11);
+}
+
+.card-image {
+  flex: 1;
+  max-width: 300px; /* Increase the max-width for a larger image */
+  margin-right: 106px; /* Add some spacing between the image and description */
+  margin-top: -110px;
+  margin-bottom: 200px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 240px;
+  border-radius: 4px;
+}
+
+.card-description {
+  flex: 2;
+}
+
+.card-description h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.card-description p {
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+/* .imgBx {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 7px;
+  float: right;
+}
+
+.imgBx img {
+  width: 20%;
+  height: 50%;
+  transition: 0.3s ease-in-out;
+  border-radius: 7px;
+}
+
+.imgBx:hover img {
+  transform: scale(1.3);
+} */
+
+/* section ::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#f00,#f0f);
+  } */
+
+.container {
+  position: relative z-index1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.members-card {
+  /* margin-top: 20%; */
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.05);
+  margin: 20px;
+  box-shadow: 0 5px 35px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+.member-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* opacity: 0.5; */
+  transition: 0.5s;
+}
+
+members-card::hover {
+  opacity: 1;
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+
+.imgBx {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid rgba(0, 0, 0, 0.25);
+}
+
+.img{
+  position:absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contentBx  h3{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10pm;
+  line-height: 1.1em;
+}
+
+.contentBx  h3 span{
+  text-transform: initial;
+  font-weight: 300;
+  font-size: 12px;
+}
