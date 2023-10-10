@@ -1,37 +1,42 @@
 export const MemberDetails = [
   {
-    name: "PlaceHolder1",
-    education: "Masters",
+    name: "Dr Mahadevan Subramaniam",
+    education: "Professor, Computer Science, UNO",
     url: "/PlaceHolder1",
   },
   {
-    name: "PlaceHolder2",
-    education: "Masters",
+    name: "Dilanga Abeyrathna",
+    education: "Doctoral Candidate",
     url: "/PlaceHolder1",
   },
   {
-    name: "PlaceHolder3",
-    education: "Masters",
+    name: "Vidya Bommanapally",
+    education: "Doctoral Candidate",
     url: "/PlaceHolder1",
   },
   {
-    name: "PlaceHolder4",
-    education: "Masters",
+    name: "Md Ashaduzzaman",
+    education: "Doctoral Student",
     url: "/PlaceHolder1",
   },
   {
-    name: "PlaceHolder5",
-    education: "Masters",
+    name: "Ruchitha Mallipeddi",
+    education: "Graduate Student",
     url: "/PlaceHolder1",
   },
   {
-    name: "PlaceHolder6",
-    education: "Masters",
+    name: "Ashish Kumar Puchakayala",
+    education: "Graduate Student ",
     url: "/PlaceHolder1",
   },
   {
-    name: "PlaceHolder7",
-    education: "Masters",
+    name: "Amruth Reddy Muthyala",
+    education: "Graduate Student ",
+    url: "/PlaceHolder1",
+  },
+  {
+    name: "Vidya Chandrashekhar Nomula",
+    education: "Graduate Student ",
     url: "/PlaceHolder1",
   },
 ];

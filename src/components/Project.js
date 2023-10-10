@@ -4,7 +4,7 @@ import Card from "../components/Card";
 const Project = () => {
   return (
     <div className="project">
-      <div className="reserach-card">
+      {/* <div className="reserach-card">
         <div className="about-text">
           <div className="content-left">
             <h1 className="heading-large">Our Reserach</h1>
@@ -38,7 +38,7 @@ const Project = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div>
         <Card />
       </div>

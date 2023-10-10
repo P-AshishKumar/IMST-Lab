@@ -8,12 +8,12 @@ function Lab() {
   return (
     <>
       <Navbar />
-      {/* <Hero
+      <Hero
         cName="hero-mid"
         heroImg={LabImg}
-        title="Welcome to our Lab"
-        text="something about the lab"
-      /> */}
+        // title="Welcome to our Lab"
+        // text="something about the lab"
+      />
       <Members />
     </>
   );

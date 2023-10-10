@@ -3,11 +3,13 @@ import "../components/CardStyles.css";
 function CardData(props) {
   return (
     <div className="t-card">
-      <div className="t-image">
+      {/* <div className="t-image">
         <img src={props.image} alt="image" />
-      </div>
+      </div> */}
       <h4>{props.heading}</h4>
-      <p>{props.text}</p>
+      <p className="project-para">
+        {props.para1} <br className="parap-br" /> {props.para2}{" "}
+      </p>
     </div>
   );
 }

@@ -7,7 +7,7 @@ function CardData(props) {
         <img src={props.image} alt="image" />
       </div>
       <h4>{props.heading}</h4>
-      <p>{props.text}</p>
+      <p className="project-para">{props.text}</p>
     </div>
   );
 }
