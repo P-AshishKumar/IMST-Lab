@@ -13,7 +13,11 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">IMST Lab</h1>
+        <h1 className="navbar-logo">
+          <Link className="home-link" to="/">
+            IMST Lab
+          </Link>
+        </h1>
         <div className="menu-icons" onClick={this.handleClick}>
           {this.state.clicked ? (
             <FontAwesomeIcon icon={faTimes} />
