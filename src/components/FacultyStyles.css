@@ -1,0 +1,61 @@
+.hero--section--content--box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5 rem;
+  padding-top: 5%;
+}
+
+.hero--section--content {
+  width: 45%;
+  text-align: justify;
+  color: white;
+}
+
+.hero--section--img {
+  position: relative;
+  width: 70%;
+  height: 50%;
+  padding: 5%;
+}
+
+.hero--section--img img {
+  width: 49%;
+  /* height: 90%; */
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.faculty-about {
+  color: black;
+  text-align: justify;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  margin-bottom: 0;
+  line-height: 2.2rem;
+}
+
+.background-color {
+  background-color: #57615b;
+}
+
+
+@media screen and (max-width: 555px) {
+  .hero--section--content--box {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5 rem;
+    padding-top: 5%;
+  }
+
+  .hero--section--content {
+    /* width: 45%; */
+    text-align: center;
+    color: white;
+    font-size: small;
+  }
+
+}

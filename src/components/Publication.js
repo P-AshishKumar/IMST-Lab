@@ -4,7 +4,7 @@ import { PublishedPapers } from "./PublishedPapers";
 function Publication(props) {
   return (
     <div>
-      <header className="section-header49">
+      {/* <header className="section-header49">
         <div className="margin-bottom">
           <h1 className="pu-heading">Selected publications</h1>
         </div>
@@ -12,7 +12,7 @@ function Publication(props) {
           Explore a curated collection of our latest and thought-provoking
           publications.
         </p>
-      </header>
+      </header> */}
       <div className="publication">
         <div className="publication-list">
           {PublishedPapers.map((post) => (
@@ -21,11 +21,9 @@ function Publication(props) {
               {post.papers.map((paper, index) => (
                 <div className="paper-details">
                   <a href={paper.url} class="reference-link">
-                    <h2 class="heading-small max-width-medium">
-                      {paper.title}
-                    </h2>
-                    <div class="formatted-reference">
-                      <div class="text-size-regular">{paper.authors}</div>
+                    <div class="text-size-regular">
+                      {paper.authors}{" "}
+                      <div className="cursive-text">{paper.title}</div>
                     </div>
                   </a>
                 </div>

@@ -1,14 +1,13 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
-import HomeImge from "../assets/HomePageBackGround.jpg";
+import Faculty from "../components/Faculty";
 
 function Home() {
   return (
     <>
       <Navbar />
-      <Hero cName="hero" heroImg={HomeImge} />
-      <About />
+      <Faculty />
     </>
   );
 }

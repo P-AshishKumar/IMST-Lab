@@ -3,23 +3,15 @@ import "../components/CardStyles.css";
 function CardData(props) {
   const ProjectMemberDetails = [
     {
-      teamMember: "M. Subramaniam, P. Chundi",
-      uni: "Computer Science Department, UNO",
-    },
-    {
-      teamMember: "Q. Nguyen, and M. Sohail",
-      uni: "Byers Eye Institute, Stanford University, Ocular Image Research an Reading Center",
-    },
-    {
-      teamMember: "Murat Hasanreisoglu ",
-      uni: "Ophthalmology Department, Gaza University, Turkey.",
+      teamMember: "A. Parakh, M. Subramaniam, E. Ostler ",
+      uni: "Colleges of IS&T and Education, UNO",
     },
   ];
 
   const ProjectMemberDetails2 = [
     {
-      teamMember: "A. Parakh, M. Subramaniam, E. Ostler ",
-      uni: "Colleges of IS&T and Education, UNO",
+      teamMember: "M. Subramaniam, P. Chundi",
+      uni: "Computer Science Department, UNO",
     },
   ];
 
@@ -48,9 +40,9 @@ function CardData(props) {
           <p>{props.studentNames}</p>
         </div>
 
-        <h2 className="medium-font">OverView</h2> 
+        <h2 className="medium-font">OverView</h2>
         <p className="project-para">
-          {props.para1} <br className="parap-br" /> 
+          {props.para1} <br className="parap-br" />
           {props.para2}{" "}
         </p>
       </div>

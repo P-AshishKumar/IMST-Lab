@@ -2,16 +2,16 @@ export const MenuItems = [
   {
     titile: "Lab",
     url: "/lab",
-    cName: "nav-links"
+    cName: "nav-links",
   },
   {
-    titile: "Research",
+    titile: "Project",
     url: "/research",
-    cName: "nav-links"
+    cName: "nav-links",
   },
   {
     titile: "Publications",
     url: "/publications",
-    cName: "nav-links"
-  }
+    cName: "nav-links",
+  },
 ];
